@@ -9,9 +9,6 @@ public class player_movement : MonoBehaviour
     public Transform endPoint;
 
     public float start_speed = 100f;
-    public float end_speed = 1f;
-    public float waiting_speed = 0.1f;
-
     public float first_move_duration = 3f;
     public float final_move_duration = 5f;
     public Camera vrCamera;
