@@ -25,7 +25,6 @@ public class player_movement : MonoBehaviour
         player.position = startPoint.position;
         vrCamera.fieldOfView = startFOV;
     }
-
     void Start()
     {
         StartCoroutine(fade_in_and_move());

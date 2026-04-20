@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Vr input for Door",
+    "maps": [
+        {
+            "name": "XR input",
+            "id": "4d5d1f35-9577-4e9c-92f1-959992d7a3e9",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "8e99f44a-c133-4feb-81b2-3d16e3f78408",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bcb274ba-75b2-4c63-925b-7d1528c160e1",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
